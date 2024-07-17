@@ -1517,6 +1517,7 @@ vendor/etc/thermal.high.level1.conf
 vendor/etc/thermal.high.level2.conf
 vendor/etc/thermal.high.level3.conf
 vendor/etc/thermal.high.level4.conf
+vendor/etc/thermal.high.perf.conf
 vendor/etc/thermal.low.conf
 vendor/etc/thermal.low.level1.conf
 vendor/etc/thermal.low.level2.conf
