@@ -40,6 +40,9 @@ PRODUCT_SYSTEM_NAME := Spacewar
 PRODUCT_SYSTEM_DEVICE := Spacewar
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# UDFPS Animations
+EXTRA_UDFPS_ANIMATIONS := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
 # Override device name
