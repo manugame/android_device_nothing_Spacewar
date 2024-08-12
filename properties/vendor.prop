@@ -100,13 +100,6 @@ bluetooth.device.default_name=Nothing Phone (1)
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
-# Dirac
-ro.vendor.dirac.acs.forceAfm=true
-ro.vendor.dirac.startAtBoot=3
-ro.vendor.dirac.acs.storeSettings=1 
-ro.vendor.dirac.acs.ignore_error=1
-ro.vendor.dirac.acs.startAtBoot=3
-
 # Display
 vendor.display.comp_mask=0
 vendor.display.disable_excl_rect=0
@@ -149,7 +142,6 @@ debug.sf.high_fps_late_app_phase_offset_ns=1000000
 debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
 debug.sf.auto_latch_unsignaled=0
 debug.sf.latch_unsignaled=1
-renderthread.skia.reduceopstasksplitting=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
@@ -182,7 +174,6 @@ persist.vendor.radio.enableadvancedscan=true
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.sib16_support=1
-ro.telephony.block_binder_thread_on_incoming_calls=false
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true

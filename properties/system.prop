@@ -24,6 +24,13 @@ debug.sf.enable_hwc_vds=1
 persist.sys.sf.native_mode=260
 persist.sys.sf.color_mode=0
 
+# Dirac
+ro.vendor.dirac.acs.forceAfm=true
+ro.vendor.dirac.startAtBoot=3
+ro.vendor.dirac.acs.storeSettings=1
+ro.vendor.dirac.acs.ignore_error=1
+ro.vendor.dirac.acs.startAtBoot=3
+
 # Fingerprint
 ro.bootloader.locked=0
 
@@ -62,6 +69,7 @@ ro.nfc.port=I2C
 # Radio
 persist.vendor.radio.atfwd.start=true
 ril.subscription.types=NV,RUIM
+ro.telephony.block_binder_thread_on_incoming_calls=false
 ro.telephony.default_network=33,33
 ro.telephony.sim_slots.count=2
 ro.vendor.use_data_netmgrd=true
@@ -80,6 +88,9 @@ persist.data.df.dev_name=rmnet_usb0
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
+
+# Skia
+renderthread.skia.reduceopstasksplitting=true
 
 # Storage
 persist.sys.fuse.passthrough.enable=true
