@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "PixysFrameworksSpacewar",
+    name: "BlissSystemUISpacewar",
     system_ext_specific: true,
 }
