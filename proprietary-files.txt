@@ -637,18 +637,6 @@ vendor/etc/init/vendor.qti.diag.rc
 vendor/lib/vendor.qti.diaghal@1.0.so
 vendor/lib64/vendor.qti.diaghal@1.0.so
 
-# Dirac
-system/etc/permissions/com.dirac.acs.xml
-system/etc/permissions/se.dirac.acs.xml
-system/etc/sysconfig/preinstalled-packages-dirac.xml
-system/priv-app/DiracAudioControlService/DiracAudioControlService.apk
-system/priv-app/DiracAudioControlService_DMP/DiracAudioControlService_DMP.apk
-system/priv-app/NothingDiracService/NothingDiracService.apk
-vendor/etc/dirac/dirac_resource.dar
-vendor/etc/dirac/interface.json
-vendor/lib/libdirac.so
-vendor/lib/soundfx/libdiraceffect-afm.so
-
 # Display Calibration data
 vendor/etc/qdcm_calib_data_rm692e5_amoled_fhd+_120hz_cmd_mode_dsi_visionox_panel.xml
 

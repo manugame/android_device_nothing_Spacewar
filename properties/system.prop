@@ -24,13 +24,6 @@ debug.sf.enable_hwc_vds=1
 persist.sys.sf.native_mode=260
 persist.sys.sf.color_mode=0
 
-# Dirac
-ro.vendor.dirac.acs.forceAfm=true
-ro.vendor.dirac.startAtBoot=3
-ro.vendor.dirac.acs.storeSettings=1
-ro.vendor.dirac.acs.ignore_error=1
-ro.vendor.dirac.acs.startAtBoot=3
-
 # Fingerprint
 ro.bootloader.locked=0
 
